@@ -1,4 +1,4 @@
-# Node Notes CLI
+# :scroll: Node Notes CLI
 > Example of a project for recording and consulting annotations through a **CLI**.
 
 [![Dependencies Status][david-dm-image]][david-dm-url] [![DevDependencies Status][david-dm-dev-image]][david-dm-dev-url] 
@@ -8,24 +8,21 @@
 [david-dm-dev-image]: https://david-dm.org/guiigos/node-notes-cli/dev-status.svg?style=flat-square
 [david-dm-dev-url]: https://david-dm.org/guiigos/node-notes-cli?type=dev
 
-
 ## Overview
 This project was developed for academic purposes to create a CLI for recording annotations using the [commander](https://github.com/tj/commander.js) and [nedb](https://github.com/louischatriot/nedb) to record the data in a local database without configurations.
 
 ## Usage
-### Environment
-Commands to install the development environment.
+### Install
 
-```bash
-$ npm install npm -g
+```sh
+$ npm i -g node-notes-cli
 ```
 
-### Dependencies
-Install dependencies and modules.
-
-```bash
-$ npm install
+```sh
+$ node-notes --help
 ```
+
+![cli](./assets/cli.gif)
 
 ## License
 Project developed for academic purposes.

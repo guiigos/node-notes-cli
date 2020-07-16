@@ -7,7 +7,7 @@ const { AES, enc: { Utf8 } } = require('crypto-js');
 const database = (secret) => new nedb({
   autoload: true,
   timestampData: true,
-  filename: path.join(path.dirname(require.main.filename), 'tasks.db'),
+  filename: path.join(path.dirname(require.main.filename), 'notes.db'),
   afterSerialization: strDB => AES.encrypt(strDB, secret).toString(),
   beforeDeserialization: strDB => AES.decrypt(strDB, secret).toString(Utf8),
 });
