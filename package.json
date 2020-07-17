@@ -7,6 +7,7 @@
     "node",
     "notes"
   ],
+  "repository": "https://github.com/guiigos/node-notes-cli",
   "license": "MIT",
   "author": {
     "name": "Guilherme Alves",
