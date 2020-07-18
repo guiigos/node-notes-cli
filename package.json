@@ -1,6 +1,6 @@
 {
   "name": "node-notes-cli",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Example CLI for NodeJs using Commander",
   "keywords": [
     "commander",
