@@ -11,8 +11,11 @@ const command = async (program, db) => {
     .action(async (options) => {
       const { id } = options;
       const find = Object.assign({}, id && { id });
+      const sort = { text: 1 };
 
-      db.find(find, (error, response) => {
+      db.find(find)
+        .sort(sort)
+        .exec((error, response) => {
           if (error) {
             return console.log(red(error.message));
           }

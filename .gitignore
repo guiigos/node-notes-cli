@@ -17,4 +17,4 @@ node_modules/
 dist/
 
 # database
-tasks.db
+notes.db
