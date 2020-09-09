@@ -1,7 +1,9 @@
 # :scroll: Node Notes CLI
 > Example of a project for recording and consulting annotations through a **CLI**.
 
-[![Dependencies Status][david-dm-image]][david-dm-url] [![DevDependencies Status][david-dm-dev-image]][david-dm-dev-url] 
+![Project](https://img.shields.io/badge/guiigos-dotfiles-ff69b4?style=flat-square)
+[![Dependencies Status][david-dm-image]][david-dm-url]
+[![DevDependencies Status][david-dm-dev-image]][david-dm-dev-url]
 
 [david-dm-image]: https://david-dm.org/guiigos/node-notes-cli/status.svg?style=flat-square
 [david-dm-url]: https://david-dm.org/guiigos/node-notes-cli
@@ -31,4 +33,4 @@ $ node-notes --help
 ## License
 Project developed for academic purposes.
 
-[![License: MIT](https://img.shields.io/badge/License-MIT-black?style=flat-square)](./LICENSE)
+[![License: MIT](https://img.shields.io/github/license/guiigos/node-notes-cli?color=black&style=flat-square)](./LICENSE)

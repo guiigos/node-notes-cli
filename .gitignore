@@ -1,20 +1,34 @@
-# logs
-logs
+# temp
+*.tmp
+*.tmp.*
+
+# log
 *.log
-*.DS_Store
-npm-debug.log*
-yarn-debug.log*
-yarn-error.log*
-lerna-debug.log*
+*.log.*
 
 # dotenv
 .env
 
-# dependency
-node_modules/
-
-# build
-dist/
-
 # database
 notes.db
+
+# build
+dist
+
+# yarn
+yarn-debug.log*
+yarn-error.log*
+
+# npm
+npm-debug.log*
+
+# modules
+lib
+node_modules
+
+# macos
+._*
+.DS_Store
+.DS_Store?
+.Trashes
+Thumbs.db
