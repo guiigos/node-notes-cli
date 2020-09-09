@@ -1,5 +1,4 @@
 # :scroll: Node Notes CLI
-> Example of a project for recording and consulting annotations through a **CLI**.
 
 ![Project](https://img.shields.io/badge/guiigos-dotfiles-ff69b4?style=flat-square)
 [![Dependencies Status][david-dm-image]][david-dm-url]
