@@ -1,6 +1,5 @@
 # :scroll: Node Notes CLI
 
-![Project](https://img.shields.io/badge/guiigos-dotfiles-ff69b4?style=flat-square)
 [![Dependencies Status][david-dm-image]][david-dm-url]
 [![DevDependencies Status][david-dm-dev-image]][david-dm-dev-url]
 
